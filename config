@@ -1,0 +1,22 @@
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	logallrefupdates = true
+[remote "origin"]
+	url = github.com:github.com/sugars1234/test.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "github.com"]
+	url = 2628925276%2540qq.com@github.com:github.com/sugars1234/test.git
+	fetch = +refs/heads/*:refs/remotes/github.com/*
+[remote "git"]
+	url = https://2628925276%40qq.com@github.com/sugars1234/test.git
+	url = file:///C:\\Users\\caichunsheng\\git\\.git
+	fetch = +refs/heads/*:refs/remotes/git/*
+[remote "gite23e"]
+	url = https://github.com/sugars1234/test.git
+	fetch = +refs/heads/*:refs/remotes/gite23e/*
+[branch "master"]
+	remote = gite23e
+	merge = refs/heads/master
+	rebase = false
